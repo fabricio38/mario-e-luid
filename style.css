@@ -1,0 +1,39 @@
+.logo-mario {
+    height: 180px;
+
+}
+button{
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+.imagem-mario-luigi {
+    height:300px ;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+.caixa-principal {
+    width: 50%;
+}
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+
+}
+video {
+    width: 100vw;
+    
+}
